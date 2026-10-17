@@ -1,0 +1,6 @@
+res://scenes/level.tscn
+res://scenes/City.tscn
+res://buildings.tres
+res://scenes/event_chooser.gd
+res://scenes/level.gd
+res://scenes/game_manager.gd

@@ -1,0 +1,156 @@
+[gd_scene format=3 uid="uid://dj4dkr4wpdyms"]
+
+[ext_resource type="Script" uid="uid://dq0hioe2wcdf8" path="res://scenes/level.gd" id="1_w7c3h"]
+[ext_resource type="MeshLibrary" uid="uid://bjncqeoeqjadu" path="res://buildings.tres" id="2_w8frs"]
+[ext_resource type="Script" uid="uid://tco1ad5analy" path="res://scenes/control.gd" id="3_mx8sn"]
+[ext_resource type="Script" uid="uid://cc67kgpgsounl" path="res://scenes/game_manager.gd" id="5_ppgk2"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_e6xji"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gpbut"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mx8sn"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0, 1, 1, 0.30588236)
+
+[sub_resource type="Environment" id="Environment_fpq87"]
+ambient_light_source = 2
+ambient_light_color = Color(0.56078434, 0.6392157, 0.78039217, 1)
+fog_enabled = true
+fog_density = 0.001
+
+[node name="Level" type="Node3D" unique_id=1026683869]
+script = ExtResource("1_w7c3h")
+camera_speed = 8
+
+[node name="graund_layer" type="GridMap" parent="." unique_id=385300166]
+mesh_library = ExtResource("2_w8frs")
+physics_material = SubResource("PhysicsMaterial_e6xji")
+cell_center_y = false
+cell_scale = 2.0
+data = {
+"cells": PackedInt32Array(0, 65535, 1441812, 65535, 65535, 1441812, 65535, 0, 1441812, 0, 0, 1441812, 1, 0, 1441812, 1, 65535, 1441812, 1, 65534, 1441812, 0, 65534, 1441812, 65535, 65534, 1441812, 65534, 65535, 1441812, 65534, 65534, 1441812, 65534, 0, 1441812, 65535, 1, 1441812, 65534, 1, 1441812, 0, 1, 1441812, 1, 1, 1441812, 65533, 65533, 1441812, 65534, 65533, 1441812, 65535, 65533, 1441812, 0, 65533, 1441812, 1, 65533, 1441812, 2, 65533, 1441812, 2, 65534, 1441812, 2, 65535, 1441812, 2, 0, 1441812, 2, 1, 1441812, 1, 2, 1441812, 2, 2, 1441812, 0, 2, 1441812, 65535, 2, 1441812, 65534, 2, 1441812, 65533, 2, 1441812, 65533, 1, 1441812, 65533, 0, 1441812, 65533, 65535, 1441812, 65533, 65534, 1441812, 65533, 65532, 1441812, 65534, 65532, 1441812, 65535, 65532, 1441812, 0, 65532, 1441812, 1, 65532, 1441812, 2, 65532, 1441812, 3, 65532, 1441812, 3, 65533, 1441812, 3, 65534, 1441812, 3, 65535, 1441812, 3, 0, 1441812, 3, 1, 1441812, 3, 2, 1441812, 3, 3, 1441812, 2, 3, 1441812, 1, 3, 1441812, 0, 3, 1441812, 65535, 3, 1441812, 65534, 3, 1441812, 65533, 3, 1441812, 65532, 3, 1441812, 65532, 2, 1441812, 65532, 1, 1441812, 65532, 0, 1441812, 65532, 65535, 1441812, 65532, 65534, 1441812, 65532, 65533, 1441812, 65532, 65532, 1441812)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="buildings_layer" type="GridMap" parent="." unique_id=1127732831]
+mesh_library = ExtResource("2_w8frs")
+physics_material = SubResource("PhysicsMaterial_e6xji")
+cell_center_y = false
+cell_scale = 2.0
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="PlayerCamera" type="Camera3D" parent="." unique_id=68151937]
+transform = Transform3D(0.7071068, -0.35355338, 0.61237246, 0, 0.8660254, 0.50000006, -0.7071068, -0.35355338, 0.61237246, 22.512741, 19.149986, 19.70597)
+projection = 1
+current = true
+size = 10.934
+far = 200.0
+
+[node name="main_uis" type="CanvasLayer" parent="PlayerCamera" unique_id=1261723775]
+
+[node name="Control" type="Control" parent="PlayerCamera/main_uis" unique_id=1361032456]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_mx8sn")
+
+[node name="budged_text" type="Label" parent="PlayerCamera/main_uis/Control" unique_id=692522831]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -53.0
+offset_bottom = 23.0
+grow_horizontal = 0
+text = "Money"
+
+[node name="hammer" type="Button" parent="PlayerCamera/main_uis/Control" unique_id=1041858115]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -80.0
+offset_top = -217.0
+offset_bottom = -167.0
+grow_horizontal = 0
+grow_vertical = 2
+text = "HAMMER"
+
+[node name="wavestart" type="Button" parent="PlayerCamera/main_uis/Control" unique_id=899250804]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -56.0
+offset_top = -31.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Ready"
+
+[node name="PanelContainer" type="PanelContainer" parent="PlayerCamera/main_uis/Control" unique_id=574881137]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -301.0
+offset_top = -136.0
+offset_right = 301.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PlayerCamera/main_uis/Control/PanelContainer" unique_id=613056302]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PlayerCamera/main_uis/Control/PanelContainer/ScrollContainer" unique_id=1664375678]
+layout_mode = 2
+
+[node name="Wall" type="Button" parent="PlayerCamera/main_uis/Control/PanelContainer/ScrollContainer/HBoxContainer" unique_id=401620054]
+layout_mode = 2
+text = "WALL"
+
+[node name="Button2" type="Button" parent="PlayerCamera/main_uis/Control/PanelContainer/ScrollContainer/HBoxContainer" unique_id=1194600370]
+layout_mode = 2
+text = "WALL"
+
+[node name="Button3" type="Button" parent="PlayerCamera/main_uis/Control/PanelContainer/ScrollContainer/HBoxContainer" unique_id=1947030439]
+layout_mode = 2
+text = "WALL"
+
+[node name="SelectionBox" type="MeshInstance3D" parent="." unique_id=862860422]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.936584, 5.1775703)
+cast_shadow = 0
+mesh = SubResource("BoxMesh_gpbut")
+surface_material_override/0 = SubResource("StandardMaterial3D_mx8sn")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1447439446]
+environment = SubResource("Environment_fpq87")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="WorldEnvironment" unique_id=957338654]
+transform = Transform3D(0.7771459, 0.48208737, -0.40451935, 0, 0.64278764, 0.76604444, 0.6293204, -0.59532833, 0.4995398, 0, 0, 0)
+light_color = Color(1, 0.94509804, 0.8392157, 1)
+light_energy = 1.2
+shadow_enabled = true
+shadow_opacity = 0.7
+shadow_blur = 2.5
+
+[node name="GAME_MANAGER" type="Node3D" parent="." unique_id=512033987]
+script = ExtResource("5_ppgk2")
+
+[node name="EventChooser" type="Node3D" parent="GAME_MANAGER" unique_id=2024485228]
+
+[connection signal="click_cell" from="." to="GAME_MANAGER" method="_on_level_click_cell"]
+[connection signal="pressed" from="PlayerCamera/main_uis/Control/hammer" to="." method="_on_hammer_pressed"]

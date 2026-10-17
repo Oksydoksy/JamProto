@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://hnl3x8x1lx2k"
+path="res://.godot/imported/wall-pane-painted-wood-door.obj-846ead7a7900935c07f3ce91e067680e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-pane-painted-wood-door.obj-846ead7a7900935c07f3ce91e067680e.mesh"]
+
+source_file="res://models/wall-pane-painted-wood-door.obj"
+dest_files=["res://.godot/imported/wall-pane-painted-wood-door.obj-846ead7a7900935c07f3ce91e067680e.mesh", "res://.godot/imported/wall-pane-painted-wood-door.obj-846ead7a7900935c07f3ce91e067680e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

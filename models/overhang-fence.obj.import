@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvnljs6bkppx0"
+path="res://.godot/imported/overhang-fence.obj-05bfa16b6e38ce1234b6c885f8a1c559.mesh"
+
+[deps]
+
+files=["res://.godot/imported/overhang-fence.obj-05bfa16b6e38ce1234b6c885f8a1c559.mesh"]
+
+source_file="res://models/overhang-fence.obj"
+dest_files=["res://.godot/imported/overhang-fence.obj-05bfa16b6e38ce1234b6c885f8a1c559.mesh", "res://.godot/imported/overhang-fence.obj-05bfa16b6e38ce1234b6c885f8a1c559.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

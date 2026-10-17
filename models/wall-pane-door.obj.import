@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://lgnouyb7v5pl"
+path="res://.godot/imported/wall-pane-door.obj-5734ace2a574a953baa8fac4db3361a6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-pane-door.obj-5734ace2a574a953baa8fac4db3361a6.mesh"]
+
+source_file="res://models/wall-pane-door.obj"
+dest_files=["res://.godot/imported/wall-pane-door.obj-5734ace2a574a953baa8fac4db3361a6.mesh", "res://.godot/imported/wall-pane-door.obj-5734ace2a574a953baa8fac4db3361a6.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

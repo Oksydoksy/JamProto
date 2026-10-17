@@ -1,0 +1,524 @@
+[gd_scene format=3 uid="uid://dsbkectr21jp8"]
+
+[ext_resource type="ArrayMesh" uid="uid://dyr8rqrl53p6y" path="res://models/barrels.obj" id="1_n88ry"]
+[ext_resource type="ArrayMesh" uid="uid://byfdg8h3hajbk" path="res://models/battlement-corner-inner.obj" id="2_n5a4c"]
+[ext_resource type="ArrayMesh" uid="uid://cu810pr35abar" path="res://models/battlement-corner-outer.obj" id="3_dl33o"]
+[ext_resource type="ArrayMesh" uid="uid://c4u053nre8074" path="res://models/battlement-half.obj" id="4_rie52"]
+[ext_resource type="ArrayMesh" uid="uid://r0ith20g8fh8" path="res://models/battlement.obj" id="5_fk8s4"]
+[ext_resource type="ArrayMesh" uid="uid://pk16ljtqapr6" path="res://models/bricks.obj" id="6_xlmk2"]
+[ext_resource type="ArrayMesh" uid="uid://bcilq6bhcv0be" path="res://models/column-damaged.obj" id="7_phvkd"]
+[ext_resource type="ArrayMesh" uid="uid://d4boy1sr4bqgy" path="res://models/column-paint-damaged.obj" id="8_x2j6t"]
+[ext_resource type="ArrayMesh" uid="uid://dsnjwfju272v6" path="res://models/column-paint.obj" id="9_ce3il"]
+[ext_resource type="ArrayMesh" uid="uid://b36puiwedqdxu" path="res://models/column-wood.obj" id="10_c175d"]
+[ext_resource type="ArrayMesh" uid="uid://c2dbtgv1euoxn" path="res://models/column.obj" id="11_bu7c1"]
+[ext_resource type="ArrayMesh" uid="uid://cu4k0morvujsb" path="res://models/detail-barrel.obj" id="12_jnmsj"]
+[ext_resource type="ArrayMesh" uid="uid://ptxgfp4pjlka" path="res://models/detail-crate-ropes.obj" id="13_phv4m"]
+[ext_resource type="ArrayMesh" uid="uid://k03bqgqpf5ge" path="res://models/detail-crate-small.obj" id="14_5lgu5"]
+[ext_resource type="ArrayMesh" uid="uid://dqlysnjw368ds" path="res://models/detail-crate.obj" id="15_lvfha"]
+[ext_resource type="ArrayMesh" uid="uid://t56w4f482gui" path="res://models/dock-corner.obj" id="16_lteex"]
+[ext_resource type="ArrayMesh" uid="uid://dibrrvxc5t4a3" path="res://models/dock-side.obj" id="17_kcef7"]
+[ext_resource type="ArrayMesh" uid="uid://dh6vcaaxmr1u3" path="res://models/fence-top.obj" id="18_uvs3x"]
+[ext_resource type="ArrayMesh" uid="uid://brwesfacmge5c" path="res://models/fence-wood.obj" id="19_eejbd"]
+[ext_resource type="ArrayMesh" uid="uid://bvpa4mx1rpdp5" path="res://models/fence.obj" id="20_61uwg"]
+[ext_resource type="ArrayMesh" uid="uid://drs0hm78c81fe" path="res://models/floor-flat.obj" id="21_2gacw"]
+[ext_resource type="ArrayMesh" uid="uid://wjjisd4mvk8r" path="res://models/floor-stairs-corner-inner.obj" id="22_fbrvc"]
+[ext_resource type="ArrayMesh" uid="uid://cgmdrapghkgah" path="res://models/floor-stairs-corner-outer.obj" id="23_niv35"]
+[ext_resource type="ArrayMesh" uid="uid://c2bkghkk28wwr" path="res://models/floor-stairs.obj" id="24_3vfy2"]
+[ext_resource type="ArrayMesh" uid="uid://b312ghur4nipv" path="res://models/floor-steps-corner-inner.obj" id="25_ufwwl"]
+[ext_resource type="ArrayMesh" uid="uid://cmpwn6pwqitma" path="res://models/floor-steps-corner-outer.obj" id="26_jvvwq"]
+[ext_resource type="ArrayMesh" uid="uid://bkdrgkphj1g50" path="res://models/floor-steps.obj" id="27_w5s7n"]
+[ext_resource type="ArrayMesh" uid="uid://y2rwadi4chwa" path="res://models/floor.obj" id="28_tm2v5"]
+[ext_resource type="ArrayMesh" uid="uid://e2fkcdc6y1wm" path="res://models/ladder.obj" id="29_wpg86"]
+[ext_resource type="ArrayMesh" uid="uid://dvnljs6bkppx0" path="res://models/overhang-fence.obj" id="30_0344b"]
+[ext_resource type="ArrayMesh" uid="uid://c61110cb7mesc" path="res://models/overhang-round-railing.obj" id="31_u5pkl"]
+[ext_resource type="ArrayMesh" uid="uid://ieun43rfvep5" path="res://models/overhang-round.obj" id="32_vybgr"]
+[ext_resource type="ArrayMesh" uid="uid://c82yxlhtlpny8" path="res://models/overhang.obj" id="33_fldbd"]
+[ext_resource type="ArrayMesh" uid="uid://dy33l24tanmk" path="res://models/pulley-crate.obj" id="34_16lpn"]
+[ext_resource type="ArrayMesh" uid="uid://usc8j5pvr722" path="res://models/pulley.obj" id="35_d2456"]
+[ext_resource type="ArrayMesh" uid="uid://bjqllk5pdxvh8" path="res://models/roof-corner.obj" id="36_4la80"]
+[ext_resource type="ArrayMesh" uid="uid://0nlxay5pcddm" path="res://models/roof-edge.obj" id="37_jultn"]
+[ext_resource type="ArrayMesh" uid="uid://bauodoy5f6wkh" path="res://models/roof-high-side-corner-inner.obj" id="38_38ygf"]
+[ext_resource type="ArrayMesh" uid="uid://d3uf3junli0ex" path="res://models/roof-high-side-corner.obj" id="39_fjghf"]
+[ext_resource type="ArrayMesh" uid="uid://cf78gf0f6g02s" path="res://models/roof-high-side.obj" id="40_ts31c"]
+[ext_resource type="ArrayMesh" uid="uid://c8eds8lbfms81" path="res://models/roof-side-corner-inner.obj" id="41_kyhai"]
+[ext_resource type="ArrayMesh" uid="uid://d3qsin1igi4c8" path="res://models/roof-side-corner.obj" id="42_kxnuw"]
+[ext_resource type="ArrayMesh" uid="uid://byye00utxq041" path="res://models/roof-side.obj" id="43_7ol6s"]
+[ext_resource type="ArrayMesh" uid="uid://2t3evdnh5fbk" path="res://models/roof.obj" id="44_7j3ad"]
+[ext_resource type="ArrayMesh" uid="uid://camedp1x7thwr" path="res://models/stairs-corner.obj" id="45_up1an"]
+[ext_resource type="ArrayMesh" uid="uid://ctshgk464w27n" path="res://models/stairs-stone.obj" id="46_3re1i"]
+[ext_resource type="ArrayMesh" uid="uid://coo10o8hrt33d" path="res://models/stairs-wood.obj" id="47_wrgtw"]
+[ext_resource type="ArrayMesh" uid="uid://cwg6vbkqtslx7" path="res://models/structure-cross.obj" id="48_d7jqk"]
+[ext_resource type="ArrayMesh" uid="uid://cblsw7ptrjff5" path="res://models/structure-pole.obj" id="49_vh1al"]
+[ext_resource type="ArrayMesh" uid="uid://dmi1ldhnrg5uf" path="res://models/structure-poles.obj" id="50_2gl1h"]
+[ext_resource type="ArrayMesh" uid="uid://c1n6wg1k2phbx" path="res://models/structure-wall-cross.obj" id="51_d7r08"]
+[ext_resource type="ArrayMesh" uid="uid://c7jquu00my277" path="res://models/structure-wall.obj" id="52_j6ymw"]
+[ext_resource type="ArrayMesh" uid="uid://b4edwywbcnimk" path="res://models/structure.obj" id="53_aeqxs"]
+[ext_resource type="ArrayMesh" uid="uid://de36h0p4lx111" path="res://models/tower-base.obj" id="54_j6ioh"]
+[ext_resource type="ArrayMesh" uid="uid://423yr47502g0" path="res://models/tower-edge.obj" id="55_wr2po"]
+[ext_resource type="ArrayMesh" uid="uid://dogsvcyw65d" path="res://models/tower-paint-base.obj" id="56_qqlsn"]
+[ext_resource type="ArrayMesh" uid="uid://c3mkdc73hpiqd" path="res://models/tower-paint.obj" id="57_3dl3u"]
+[ext_resource type="ArrayMesh" uid="uid://df2eu1q4tku0w" path="res://models/tower-top.obj" id="58_exg8w"]
+[ext_resource type="ArrayMesh" uid="uid://bu11uvs5fr8r1" path="res://models/tower.obj" id="59_4fkma"]
+[ext_resource type="ArrayMesh" uid="uid://c8ay2suhruldx" path="res://models/tree-shrub.obj" id="60_upb4m"]
+[ext_resource type="ArrayMesh" uid="uid://d3kexuw2uxbtw" path="res://models/wall-detail.obj" id="61_gsamo"]
+[ext_resource type="ArrayMesh" uid="uid://cful6qu6xou2r" path="res://models/wall-door.obj" id="62_koeku"]
+[ext_resource type="ArrayMesh" uid="uid://mhtvcdhildum" path="res://models/wall-flat-gate.obj" id="63_8lfws"]
+[ext_resource type="ArrayMesh" uid="uid://b1qpk4de2wcts" path="res://models/wall-fortified-door.obj" id="64_wdq0v"]
+[ext_resource type="ArrayMesh" uid="uid://bm8c6np7330ok" path="res://models/wall-fortified-gate-half.obj" id="65_iepav"]
+[ext_resource type="ArrayMesh" uid="uid://dr1sk07qmkkmp" path="res://models/wall-fortified-gate.obj" id="66_xwds3"]
+[ext_resource type="ArrayMesh" uid="uid://bph3fpfujvrwa" path="res://models/wall-fortified-half.obj" id="67_1bleh"]
+[ext_resource type="ArrayMesh" uid="uid://c0l13j5pcjpyi" path="res://models/wall-fortified-paint-door.obj" id="68_marsk"]
+[ext_resource type="ArrayMesh" uid="uid://brho5anfnrsio" path="res://models/wall-fortified-paint-gate.obj" id="69_vjyoy"]
+[ext_resource type="ArrayMesh" uid="uid://b0mf7b0bebnsv" path="res://models/wall-fortified-paint-half.obj" id="70_5ugf4"]
+[ext_resource type="ArrayMesh" uid="uid://b2iuclobi1vyc" path="res://models/wall-fortified-paint-window.obj" id="71_cla42"]
+[ext_resource type="ArrayMesh" uid="uid://cnptwyb6t21r6" path="res://models/wall-fortified-paint.obj" id="72_x2cyv"]
+[ext_resource type="ArrayMesh" uid="uid://cxe81fw31ks53" path="res://models/wall-fortified-window.obj" id="73_rulgs"]
+[ext_resource type="ArrayMesh" uid="uid://c37skgbkxc3m8" path="res://models/wall-fortified.obj" id="74_vdoyt"]
+[ext_resource type="ArrayMesh" uid="uid://c0ov00jaf5wn0" path="res://models/wall-gate-half.obj" id="75_ixbg7"]
+[ext_resource type="ArrayMesh" uid="uid://f7hesocg0nc7" path="res://models/wall-gate.obj" id="76_82a0e"]
+[ext_resource type="ArrayMesh" uid="uid://c8wnptgu0ivxm" path="res://models/wall-half.obj" id="77_tvam2"]
+[ext_resource type="ArrayMesh" uid="uid://c4nj5vq2yxyle" path="res://models/wall-low.obj" id="78_rxj81"]
+[ext_resource type="ArrayMesh" uid="uid://co2n0pjdjp5xb" path="res://models/wall-paint-detail.obj" id="79_k8q01"]
+[ext_resource type="ArrayMesh" uid="uid://4rds6uhh1vp0" path="res://models/wall-paint-door.obj" id="80_22t3l"]
+[ext_resource type="ArrayMesh" uid="uid://bumu71qafiby2" path="res://models/wall-paint-flat.obj" id="81_01l3w"]
+[ext_resource type="ArrayMesh" uid="uid://bhcs5qlo8ugwt" path="res://models/wall-paint-gate.obj" id="82_6u5wm"]
+[ext_resource type="ArrayMesh" uid="uid://bja0tomywtk4c" path="res://models/wall-paint-half.obj" id="83_d1kcs"]
+[ext_resource type="ArrayMesh" uid="uid://cgdgf1epidt3i" path="res://models/wall-paint-window.obj" id="84_juqyr"]
+[ext_resource type="ArrayMesh" uid="uid://cfuitalcxuk7l" path="res://models/wall-paint.obj" id="85_30ru3"]
+[ext_resource type="ArrayMesh" uid="uid://lgnouyb7v5pl" path="res://models/wall-pane-door.obj" id="86_0f2q1"]
+[ext_resource type="ArrayMesh" uid="uid://c7cbxywsddbvd" path="res://models/wall-pane-paint-door.obj" id="87_seuyc"]
+[ext_resource type="ArrayMesh" uid="uid://bx5yfw24usdy1" path="res://models/wall-pane-paint-window.obj" id="88_4xy4i"]
+[ext_resource type="ArrayMesh" uid="uid://t704q22cc7j4" path="res://models/wall-pane-paint.obj" id="89_2dap0"]
+[ext_resource type="ArrayMesh" uid="uid://hnl3x8x1lx2k" path="res://models/wall-pane-painted-wood-door.obj" id="90_nbini"]
+[ext_resource type="ArrayMesh" uid="uid://c2gy52hew06pk" path="res://models/wall-pane-painted-wood-window.obj" id="91_rng80"]
+[ext_resource type="ArrayMesh" uid="uid://bvexr0aj81wj1" path="res://models/wall-pane-painted-wood.obj" id="92_aafdy"]
+[ext_resource type="ArrayMesh" uid="uid://cctygrxoqi0ep" path="res://models/wall-pane-window.obj" id="93_millm"]
+[ext_resource type="ArrayMesh" uid="uid://c8qrkk3e36qc1" path="res://models/wall-pane-wood-door.obj" id="94_m1aci"]
+[ext_resource type="ArrayMesh" uid="uid://bho3hd5h0p0ut" path="res://models/wall-pane-wood-window.obj" id="95_4dnk2"]
+[ext_resource type="ArrayMesh" uid="uid://ce7nr8dlx7plm" path="res://models/wall-pane-wood.obj" id="96_iordc"]
+[ext_resource type="ArrayMesh" uid="uid://b7o5f8452it8y" path="res://models/wall-pane.obj" id="97_u7jib"]
+[ext_resource type="ArrayMesh" uid="uid://cue4xu3xxnfud" path="res://models/wall-window.obj" id="98_ti85m"]
+[ext_resource type="ArrayMesh" uid="uid://djsrd4rxgm1bf" path="res://models/wall.obj" id="99_6mmgq"]
+[ext_resource type="ArrayMesh" uid="uid://cy3n1ahmwgjor" path="res://models/water.obj" id="100_y5mkw"]
+[ext_resource type="ArrayMesh" uid="uid://b0prabl52qswo" path="res://models/wood-floor-half.obj" id="101_3v04a"]
+[ext_resource type="ArrayMesh" uid="uid://day0rwue2rrt4" path="res://models/wood-floor-quarter.obj" id="102_kw601"]
+[ext_resource type="ArrayMesh" uid="uid://c2ha6vyn1pd8q" path="res://models/wood-floor-railing.obj" id="103_c8k67"]
+[ext_resource type="ArrayMesh" uid="uid://cweq3lxoiyyby" path="res://models/wood-floor.obj" id="104_6c8c3"]
+
+[node name="City" type="Node3D" unique_id=1723607090]
+
+[node name="Barrels" type="MeshInstance3D" parent="." unique_id=1667011820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("1_n88ry")
+
+[node name="BattlementCornerInner" type="MeshInstance3D" parent="." unique_id=49001669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.552259, -9.536743e-07, 0.087080956)
+mesh = ExtResource("2_n5a4c")
+
+[node name="BattlementCornerOuter" type="MeshInstance3D" parent="." unique_id=704479931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("3_dl33o")
+
+[node name="BattlementHalf" type="MeshInstance3D" parent="." unique_id=909538574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("4_rie52")
+
+[node name="Battlement" type="MeshInstance3D" parent="." unique_id=1258812046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("5_fk8s4")
+
+[node name="Bricks" type="MeshInstance3D" parent="." unique_id=518604279]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0462383, -9.536743e-07, -1.0485847)
+mesh = ExtResource("6_xlmk2")
+
+[node name="ColumnDamaged" type="MeshInstance3D" parent="." unique_id=2019878794]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.597883, -9.536743e-07, 0.087080956)
+mesh = ExtResource("7_phvkd")
+
+[node name="ColumnPaintDamaged" type="MeshInstance3D" parent="." unique_id=615098473]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("8_x2j6t")
+
+[node name="ColumnPaint" type="MeshInstance3D" parent="." unique_id=2030067511]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("9_ce3il")
+
+[node name="ColumnWood" type="MeshInstance3D" parent="." unique_id=1767146373]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("10_c175d")
+
+[node name="Column" type="MeshInstance3D" parent="." unique_id=1052708239]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("11_bu7c1")
+
+[node name="DetailBarrel" type="MeshInstance3D" parent="." unique_id=2113862553]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("12_jnmsj")
+
+[node name="DetailCrateRopes" type="MeshInstance3D" parent="." unique_id=908956039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("13_phv4m")
+
+[node name="DetailCrateSmall" type="MeshInstance3D" parent="." unique_id=323880818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("14_5lgu5")
+
+[node name="DetailCrate" type="MeshInstance3D" parent="." unique_id=502248050]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("15_lvfha")
+
+[node name="DockCorner" type="MeshInstance3D" parent="." unique_id=385344385]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.497418, -9.536743e-07, 0.087080956)
+mesh = ExtResource("16_lteex")
+
+[node name="DockSide" type="MeshInstance3D" parent="." unique_id=1464100212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("17_kcef7")
+
+[node name="FenceTop" type="MeshInstance3D" parent="." unique_id=1787173133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("18_uvs3x")
+
+[node name="FenceWood" type="MeshInstance3D" parent="." unique_id=1198059065]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("19_eejbd")
+
+[node name="Fence" type="MeshInstance3D" parent="." unique_id=808631828]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("20_61uwg")
+
+[node name="FloorFlat" type="MeshInstance3D" parent="." unique_id=1589452397]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("21_2gacw")
+
+[node name="FloorStairsCornerInner" type="MeshInstance3D" parent="." unique_id=307470999]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("22_fbrvc")
+
+[node name="FloorStairsCornerOuter" type="MeshInstance3D" parent="." unique_id=1566086384]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("23_niv35")
+
+[node name="FloorStairs" type="MeshInstance3D" parent="." unique_id=338996938]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("24_3vfy2")
+
+[node name="FloorStepsCornerInner" type="MeshInstance3D" parent="." unique_id=718546669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("25_ufwwl")
+
+[node name="FloorStepsCornerOuter" type="MeshInstance3D" parent="." unique_id=564241540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("26_jvvwq")
+
+[node name="FloorSteps" type="MeshInstance3D" parent="." unique_id=1970125739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("27_w5s7n")
+
+[node name="Floor" type="MeshInstance3D" parent="." unique_id=1007774631]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("28_tm2v5")
+
+[node name="Ladder" type="MeshInstance3D" parent="." unique_id=2003092483]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("29_wpg86")
+
+[node name="OverhangFence" type="MeshInstance3D" parent="." unique_id=72035205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("30_0344b")
+
+[node name="OverhangRoundRailing" type="MeshInstance3D" parent="." unique_id=101724569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("31_u5pkl")
+
+[node name="OverhangRound" type="MeshInstance3D" parent="." unique_id=180363826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("32_vybgr")
+
+[node name="Overhang" type="MeshInstance3D" parent="." unique_id=1545893395]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("33_fldbd")
+
+[node name="PulleyCrate" type="MeshInstance3D" parent="." unique_id=1586476547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, -0.95269036)
+mesh = ExtResource("34_16lpn")
+
+[node name="Pulley" type="MeshInstance3D" parent="." unique_id=1493796994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("35_d2456")
+
+[node name="RoofCorner" type="MeshInstance3D" parent="." unique_id=2035239666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4321886, -9.536743e-07, -1.7137085)
+mesh = ExtResource("36_4la80")
+
+[node name="RoofEdge" type="MeshInstance3D" parent="." unique_id=1392035556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("37_jultn")
+
+[node name="RoofHighSideCornerInner" type="MeshInstance3D" parent="." unique_id=1383429253]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("38_38ygf")
+
+[node name="RoofHighSideCorner" type="MeshInstance3D" parent="." unique_id=1084635159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("39_fjghf")
+
+[node name="RoofHighSide" type="MeshInstance3D" parent="." unique_id=681162573]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("40_ts31c")
+
+[node name="RoofSideCornerInner" type="MeshInstance3D" parent="." unique_id=1228586683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("41_kyhai")
+
+[node name="RoofSideCorner" type="MeshInstance3D" parent="." unique_id=1057653773]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("42_kxnuw")
+
+[node name="RoofSide" type="MeshInstance3D" parent="." unique_id=562676169]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("43_7ol6s")
+
+[node name="Roof" type="MeshInstance3D" parent="." unique_id=2014788247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0917623, -9.536743e-07, 2.7349954)
+mesh = ExtResource("44_7j3ad")
+
+[node name="StairsCorner" type="MeshInstance3D" parent="." unique_id=146038289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("45_up1an")
+
+[node name="StairsStone" type="MeshInstance3D" parent="." unique_id=696205608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("46_3re1i")
+
+[node name="StairsWood" type="MeshInstance3D" parent="." unique_id=1697973395]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("47_wrgtw")
+
+[node name="StructureCross" type="MeshInstance3D" parent="." unique_id=1261688011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("48_d7jqk")
+
+[node name="StructurePole" type="MeshInstance3D" parent="." unique_id=1593991866]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("49_vh1al")
+
+[node name="StructurePoles" type="MeshInstance3D" parent="." unique_id=944030789]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("50_2gl1h")
+
+[node name="StructureWallCross" type="MeshInstance3D" parent="." unique_id=635833771]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("51_d7r08")
+
+[node name="StructureWall" type="MeshInstance3D" parent="." unique_id=1861637192]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("52_j6ymw")
+
+[node name="Structure" type="MeshInstance3D" parent="." unique_id=1457017700]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("53_aeqxs")
+
+[node name="TowerBase" type="MeshInstance3D" parent="." unique_id=897180142]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("54_j6ioh")
+
+[node name="TowerEdge" type="MeshInstance3D" parent="." unique_id=1407730307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("55_wr2po")
+
+[node name="TowerPaintBase" type="MeshInstance3D" parent="." unique_id=203950200]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("56_qqlsn")
+
+[node name="TowerPaint" type="MeshInstance3D" parent="." unique_id=328302755]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("57_3dl3u")
+
+[node name="TowerTop" type="MeshInstance3D" parent="." unique_id=714355530]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("58_exg8w")
+
+[node name="Tower" type="MeshInstance3D" parent="." unique_id=2069094761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("59_4fkma")
+
+[node name="TreeShrub" type="MeshInstance3D" parent="." unique_id=1672841214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("60_upb4m")
+
+[node name="WallDetail" type="MeshInstance3D" parent="." unique_id=188932545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("61_gsamo")
+
+[node name="WallDoor" type="MeshInstance3D" parent="." unique_id=1130808024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("62_koeku")
+
+[node name="WallFlatGate" type="MeshInstance3D" parent="." unique_id=211154880]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("63_8lfws")
+
+[node name="WallFortifiedDoor" type="MeshInstance3D" parent="." unique_id=2063842270]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("64_wdq0v")
+
+[node name="WallFortifiedGateHalf" type="MeshInstance3D" parent="." unique_id=1449053466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3763938, -9.536743e-07, 0.087080956)
+mesh = ExtResource("65_iepav")
+
+[node name="WallFortifiedGate" type="MeshInstance3D" parent="." unique_id=1410262067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("66_xwds3")
+
+[node name="WallFortifiedHalf" type="MeshInstance3D" parent="." unique_id=361467318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("67_1bleh")
+
+[node name="WallFortifiedPaintDoor" type="MeshInstance3D" parent="." unique_id=1623682347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 2.57924)
+mesh = ExtResource("68_marsk")
+
+[node name="WallFortifiedPaintGate" type="MeshInstance3D" parent="." unique_id=116873745]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("69_vjyoy")
+
+[node name="WallFortifiedPaintHalf" type="MeshInstance3D" parent="." unique_id=626496907]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.966028, -9.536743e-07, 0.087080956)
+mesh = ExtResource("70_5ugf4")
+
+[node name="WallFortifiedPaintWindow" type="MeshInstance3D" parent="." unique_id=2033965262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4964591, -9.536743e-07, 2.3481848)
+mesh = ExtResource("71_cla42")
+
+[node name="WallFortifiedPaint" type="MeshInstance3D" parent="." unique_id=1847343792]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("72_x2cyv")
+
+[node name="WallFortifiedWindow" type="MeshInstance3D" parent="." unique_id=1649540195]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("73_rulgs")
+
+[node name="WallFortified" type="MeshInstance3D" parent="." unique_id=1387257534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8720407, -9.536743e-07, 0.087080956)
+mesh = ExtResource("74_vdoyt")
+
+[node name="WallGateHalf" type="MeshInstance3D" parent="." unique_id=1967617949]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, -2.3944511)
+mesh = ExtResource("75_ixbg7")
+
+[node name="WallGate" type="MeshInstance3D" parent="." unique_id=293702700]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("76_82a0e")
+
+[node name="WallHalf" type="MeshInstance3D" parent="." unique_id=388599449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("77_tvam2")
+
+[node name="WallLow" type="MeshInstance3D" parent="." unique_id=998406936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("78_rxj81")
+
+[node name="WallPaintDetail" type="MeshInstance3D" parent="." unique_id=763877429]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("79_k8q01")
+
+[node name="WallPaintDoor" type="MeshInstance3D" parent="." unique_id=498588286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("80_22t3l")
+
+[node name="WallPaintFlat" type="MeshInstance3D" parent="." unique_id=2130166557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("81_01l3w")
+
+[node name="WallPaintGate" type="MeshInstance3D" parent="." unique_id=1590500061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("82_6u5wm")
+
+[node name="WallPaintHalf" type="MeshInstance3D" parent="." unique_id=390856216]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8878682, -9.536743e-07, 0.087080956)
+mesh = ExtResource("83_d1kcs")
+
+[node name="WallPaintWindow" type="MeshInstance3D" parent="." unique_id=2135434383]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5386575, -9.536743e-07, 2.4753199)
+mesh = ExtResource("84_juqyr")
+
+[node name="WallPaint" type="MeshInstance3D" parent="." unique_id=875696588]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("85_30ru3")
+
+[node name="WallPaneDoor" type="MeshInstance3D" parent="." unique_id=496787262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("86_0f2q1")
+
+[node name="WallPanePaintDoor" type="MeshInstance3D" parent="." unique_id=607318708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("87_seuyc")
+
+[node name="WallPanePaintWindow" type="MeshInstance3D" parent="." unique_id=2142887638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("88_4xy4i")
+
+[node name="WallPanePaint" type="MeshInstance3D" parent="." unique_id=2127681303]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("89_2dap0")
+
+[node name="WallPanePaintedWoodDoor" type="MeshInstance3D" parent="." unique_id=1123732013]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("90_nbini")
+
+[node name="WallPanePaintedWoodWindow" type="MeshInstance3D" parent="." unique_id=143766558]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("91_rng80")
+
+[node name="WallPanePaintedWood" type="MeshInstance3D" parent="." unique_id=1208395178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("92_aafdy")
+
+[node name="WallPaneWindow" type="MeshInstance3D" parent="." unique_id=1870904158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("93_millm")
+
+[node name="WallPaneWoodDoor" type="MeshInstance3D" parent="." unique_id=366231109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("94_m1aci")
+
+[node name="WallPaneWoodWindow" type="MeshInstance3D" parent="." unique_id=386552539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("95_4dnk2")
+
+[node name="WallPaneWood" type="MeshInstance3D" parent="." unique_id=147489283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("96_iordc")
+
+[node name="WallPane" type="MeshInstance3D" parent="." unique_id=775909850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("97_u7jib")
+
+[node name="WallWindow" type="MeshInstance3D" parent="." unique_id=1903459630]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("98_ti85m")
+
+[node name="Wall" type="MeshInstance3D" parent="." unique_id=1514122127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.413631, -9.536743e-07, 0.087080956)
+mesh = ExtResource("99_6mmgq")
+
+[node name="Water" type="MeshInstance3D" parent="." unique_id=876599815]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("100_y5mkw")
+
+[node name="WoodFloorHalf" type="MeshInstance3D" parent="." unique_id=159756548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("101_3v04a")
+
+[node name="WoodFloorQuarter" type="MeshInstance3D" parent="." unique_id=1170225158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("102_kw601")
+
+[node name="WoodFloorRailing" type="MeshInstance3D" parent="." unique_id=2011324881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("103_c8k67")
+
+[node name="WoodFloor" type="MeshInstance3D" parent="." unique_id=80617959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016485214, -9.536743e-07, 0.087080956)
+mesh = ExtResource("104_6c8c3")
